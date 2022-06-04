@@ -21,9 +21,16 @@
 // console.log("Just checking");
 // To check wether a year is leap year or not
 
-let y = 2020;
-if(y % 4 === 0 || y % 400 === 0 && y %100 != 0){
-    console.log("leap year");
+// let y = 2020;
+// if(y % 4 === 0 || y % 400 === 0 && y %100 != 0){
+//     console.log("leap year");
+// }else{
+//     console.log("Not a leap year");
+// };
+
+let age = 16;
+if(age>=18){
+    console.log("You are elegible to vote")
 }else{
-    console.log("Not a leap year");
+    console.log("You are not elegible to vote")
 };
