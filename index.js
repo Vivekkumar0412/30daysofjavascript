@@ -1,8 +1,8 @@
 // var Myname = "Vivek kumar";
 // console.log(typeof(Myname)); 
 // program to swap two numbers
-let a = 15;
-let b = 6;
+// let a = 15;
+// let b = 6;
 // let c;
 // c = b;
 // b = a;
@@ -18,4 +18,12 @@ let b = 6;
 // console.log(a);
 // console.log(b);
 
-console.log("Just checking");
+// console.log("Just checking");
+// To check wether a year is leap year or not
+
+let y = 2020;
+if(y % 4 === 0 || y % 400 === 0 && y %100 != 0){
+    console.log("leap year");
+}else{
+    console.log("Not a leap year");
+};
