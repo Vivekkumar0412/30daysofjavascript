@@ -12,8 +12,10 @@ let b = 6;
 
 // program to swap two numbers without using 3rd varriable
 
-a = a+b;
-b = a-b;
-a = a-b;
-console.log(a);
-console.log(b);
+// a = a+b;
+// b = a-b;
+// a = a-b;
+// console.log(a);
+// console.log(b);
+
+console.log("Just checking");
