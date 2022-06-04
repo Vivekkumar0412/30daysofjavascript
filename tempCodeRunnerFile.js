@@ -1,2 +1,2 @@
-);
-// console.log(b);
+let a = 15;
+// let b = 6;
