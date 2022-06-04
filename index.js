@@ -28,11 +28,13 @@
 //     console.log("Not a leap year");
 // };
 
-let age = 16;
-if(age>=18){
-    console.log("You are elegible to vote")
-}else{
-    console.log("You are not elegible to vote")
-};
+// let age = 16;
+// if(age>=18){
+//     console.log("You are elegible to vote")
+// }else{
+//     console.log("You are not elegible to vote")
+// };
 
-console.log("checking something");
+// console.log("checking something");
+
+console.log("checking fourth time ");
