@@ -1,2 +1,2 @@
-
-// console.log(typeof(Myname)); 
+);
+// console.log(b);
