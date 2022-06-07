@@ -122,35 +122,35 @@
 // $$$$$ FUNCTIONS IN JAVASCRIPT $$$$$$$$
 //  Function allow us to write reusable code 
 // function declaration
-function sum(){
-    let a = 30;
-    let b = 20;
-    let sum = a +b;
-    console.log(sum);
-};
+// function sum(){
+//     let a = 30;
+//     let b = 20;
+//     let sum = a +b;
+//     console.log(sum);
+// };
 // function calling
-sum();
+// sum();
 
 // function parameter and function argument
 // when we are defining a function we give some value to its parehthesis that is called as function parameters.
-function subtract(a,b){
-    let total = a-b;
-    console.log(total);
-};
+// function subtract(a,b){
+//     let total = a-b;
+//     console.log(total);
+// };
 // a,b are the parameters here
 // while calling the function when we give some value to its parehthesis it is called function argument
-subtract(30,20);
+// subtract(30,20);
 // 30 and 20 are the values of a nad b respectively.
 
 // FUNCTION EXPRESSION
 // function expression basically tells us that we can store a complete funtion in a varriable
 
-function mul(a,b){
-    let total = a*b;
-    console.log(total);
-};
-let funcexp = mul(4,6);
-funcexp;
+// function mul(a,b){
+//     let total = a*b;
+//     console.log(total);
+// };
+// let funcexp = mul(4,6);
+// funcexp;
 // Here all the value of function is stored in the varriable funcexp.
 
 // Return keyword
@@ -166,11 +166,13 @@ funcexp;
 
 // Anonynomous function expression
 // basically in annonynomous function we dont,t need to give name to the function
-let funExp = function(a,b){
-    console.log(a%b);
-};
-funExp(10,5);
+// let funExp = function(a,b){
+//     console.log(a%b);
+// };
+// funExp(10,5);
 
 // So in the above code we can easily see that we didnt use any name while we were writing function insted we assing it in a varriale
 
 // total code is called Anonymous function expression and the function alone is annonymous function.
+
+console.log("Nohing to do with the main code just for checking");
