@@ -155,13 +155,13 @@ funcexp;
 
 // Return keyword
 
-function di(a,b){
-   return ans = a/b;
-    // console.log(ans)
+// function di(a,b){
+//    return ans = a/b;
+//     // console.log(ans)
 
-};
-let fun = di(100,10);
-fun;
+// };
+// let fun = di(100,10);
+// fun;
 
 
 // Anonynomous function expression
