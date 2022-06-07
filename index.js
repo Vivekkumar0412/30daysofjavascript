@@ -90,25 +90,25 @@
 // loop basically helps us to remove repatative code
 // while loop
 // print from 1 to 20
-// let num = 0;
-// while(num<=20){
-//     console.log(num);
-//     num++;
-// };
+let num = 0;
+while(num<=20){
+    console.log(num);
+    num++;
+};
 // do while loop
 
-// do{
-//     debugger;
-//     console.log(num);
-//     num++;
-// }while(num<20);
+do{
+    debugger;
+    console.log(num);
+    num++;
+}while(num<20);
 
 
 // for loop
-// for(let i = 0; i<= 20; i++){
-//     debugger;
-//     console.log(i);
-// }; 
+for(let i = 0; i<= 20; i++){
+    debugger;
+    console.log(i);
+}; 
 
 // Print table using for loop
 
