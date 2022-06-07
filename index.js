@@ -44,8 +44,25 @@
 // truthy and falsy values
 //  we have 5 falsy values in javascript 
 // 0, "", undefined, false, null,Nan
-if(scor = 0){
-    console.log("we won the match");
+// if(scor = 0){
+//     console.log("we won the match");
+// }else{
+//     console.log("we lost the match");
+// };
+
+
+// $$$$ ternary operator in javascript $$$$
+//  $$$$Ternary oeprator in javascript basically takes  operands $$$$
+//  $$$$i can also say that it is the short form of if else conditions $$$$
+// #### write a program to check weather someone can vote or not using if-else ###
+let age = 10;
+if(age>= 18){
+    console.log("YOU CAN VOTE")
 }else{
-    console.log("we lost the match");
-}
+    console.log("YOU CAN NOT VOTE");
+};
+
+// #### write a program to check weather someone can vote or not using ternary operator ###
+
+let ag = 8;
+console.log((ag>=18)?"YOU CAN VOTE" : "YOU CAN NOT VOTE");
