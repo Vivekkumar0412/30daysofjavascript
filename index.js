@@ -55,14 +55,32 @@
 //  $$$$Ternary oeprator in javascript basically takes  operands $$$$
 //  $$$$i can also say that it is the short form of if else conditions $$$$
 // #### write a program to check weather someone can vote or not using if-else ###
-let age = 10;
-if(age>= 18){
-    console.log("YOU CAN VOTE")
-}else{
-    console.log("YOU CAN NOT VOTE");
-};
+// let age = 10;
+// if(age>= 18){
+//     console.log("YOU CAN VOTE")
+// }else{
+//     console.log("YOU CAN NOT VOTE");
+// };
 
 // #### write a program to check weather someone can vote or not using ternary operator ###
 
-let ag = 8;
-console.log((ag>=18)?"YOU CAN VOTE" : "YOU CAN NOT VOTE");
+// let ag = 8;
+// console.log((ag>=18)?"YOU CAN VOTE" : "YOU CAN NOT VOTE");
+
+// $$$$ Switch statement in javascript $$$
+let area = "rectangle";
+let l = 10;
+let b = 20;
+let r = 5;
+let PI = 3.12;
+switch(area){
+    case area = "circle":
+        console.log("AREA OF CIRCLE IS : " + PI*r**2);
+        break;
+    case area = "rectangle":
+        console.log("AREA OF RECTANGLE IS : " + l*b);
+        break;
+    default:
+        console.log("INVALID DATA");
+        
+}
