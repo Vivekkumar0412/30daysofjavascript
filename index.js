@@ -68,19 +68,51 @@
 // console.log((ag>=18)?"YOU CAN VOTE" : "YOU CAN NOT VOTE");
 
 // $$$$ Switch statement in javascript $$$
-let area = "rectangle";
-let l = 10;
-let b = 20;
-let r = 5;
-let PI = 3.12;
-switch(area){
-    case area = "circle":
-        console.log("AREA OF CIRCLE IS : " + PI*r**2);
-        break;
-    case area = "rectangle":
-        console.log("AREA OF RECTANGLE IS : " + l*b);
-        break;
-    default:
-        console.log("INVALID DATA");
+// let area = "rectangle";
+// let l = 10;
+// let b = 20;
+// let r = 5;
+// let PI = 3.12;
+// switch(area){
+//     case area = "circle":
+//         console.log("AREA OF CIRCLE IS : " + PI*r**2);
+//         break;
+//     case area = "rectangle":
+//         console.log("AREA OF RECTANGLE IS : " + l*b);
+//         break;
+//     default:
+//         console.log("INVALID DATA");
         
+// };
+
+
+// loops in javascript
+// loop basically helps us to remove repatative code
+// while loop
+// print from 1 to 20
+// let num = 0;
+// while(num<=20){
+//     console.log(num);
+//     num++;
+// };
+// do while loop
+
+// do{
+//     debugger;
+//     console.log(num);
+//     num++;
+// }while(num<20);
+
+
+// for loop
+// for(let i = 0; i<= 20; i++){
+//     debugger;
+//     console.log(i);
+// }; 
+
+// Print table using for loop
+
+let tb = 17;
+for(let i = 1; i<=10; i++){
+    console.log(tb + " X "+ i + " = " + tb*i);
 }
