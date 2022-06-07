@@ -1,2 +1,5 @@
-let a = 15;
-// let b = 6;
+t num = 0;
+// while(num<=20){
+//     console.log(num);
+//     num++;
+// };
