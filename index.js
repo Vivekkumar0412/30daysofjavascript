@@ -44,7 +44,7 @@
 // truthy and falsy values
 //  we have 5 falsy values in javascript 
 // 0, "", undefined, false, null,Nan
-if(score = 0){
+if(scor = 0){
     console.log("we won the match");
 }else{
     console.log("we lost the match");
